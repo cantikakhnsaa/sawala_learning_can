@@ -1,0 +1,15 @@
+{
+    "name": "sawala-learning-project",
+    "version": "1.0.0",
+    "description": "Project pembelajaran JavaScript modern untuk kegiatan PKL Sawala.",
+    "type": "module",
+    "scripts": {
+        "fundamentals": "node 01-javascript-fundamentals/01-variabel-tipe-data/index.js",
+        "calculator": "node 01-javascript-fundamentals/02-kondisi-function/index.js",
+        "students": "node 01-javascript-fundamentals/03-object-array/index.js",
+        "methods": "node 01-javascript-fundamentals/04-looping-array-methods/index.js",
+        "destructuring": "node 01-javascript-fundamentals/05-destructuring-spread/index.js",
+        "modules": "node 01-javascript-fundamentals/06-es-modules/index.js",
+        "products": "node 01-javascript-fundamentals/mini-project-produk-list/index.js"
+    }
+}
