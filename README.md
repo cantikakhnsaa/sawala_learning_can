@@ -8,7 +8,7 @@ Project ini dibuat untuk mempelajari dasar-dasar JavaScript dan JavaScript Moder
 
 ## Materi yang Dipelajari
 
-- Variabel dengan `let` dan `const` ✅
+- Variabel dengan `let` dan `const` 
 - Tipe data
 - `if`, `else if`, dan `else`
 - Function
