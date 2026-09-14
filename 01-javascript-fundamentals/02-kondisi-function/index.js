@@ -1,79 +1,88 @@
-// ============================================
-// MINI EXERCISE - KALKULATOR SEDERHANA
-// TAHAP 1: PENJUMLAHAN
-// ============================================
+const usia = 18;
 
-function tambah(a, b) {
-    return a + b;
+if (usia > 17){
+  console.log("buatlahKTP");
+} else {
+   console.log("belumadaKTP");
 }
 
-const angka1 = 30;
-const angka2 = 89;
+let nilai = 75;
 
-const hasil = tambah(angka1, angka2);
+if (nilai >= 90) {
+  console.log("A");
+} else if (nilai >= 80) {
+  console.log("B");
+} else {
+  console.log("C");
+}
+ //operator
+ 
+console.log(7 > 3);
+console.log(7 < 3);
+console.log(5 >= 5);
+console.log(3 <= 5);
+console.log(10 === 10);
+console.log(10 === "10");
+console.log(10 !== 5);
 
-console.log("Angka pertama:", angka1);
-console.log("Angka kedua:", angka2);
-console.log("Hasil penjumlahan:", hasil);
+//if else dengan ===
 
-//function kurang
+let nama = "Cantika";
 
-function kurang(a, b) {
-    return a - b;
+if (nama === "hntika") {
+  console.log("Halo Cantika");
+} else {
+  console.log("Bukan Cantika");
 }
 
-const angka3 = 50;
-const angka4 = 20;
+// Membikin function yang menerima masukan (nama, nilai)
+function cekKelulusan(nama, nilai) {
+  if (nilai >= 75) {
+    console.log(nama + " dinyatakan LULUS!");
+  } else {
+    console.log(nama + " dinyatakan TIDAK LULUS.");
+  }
+}
 
-const hasilPengurangan = kurang(angka3, angka4);
+// Memanggil function dengan data yang berbeda-beda
+cekKelulusan("Cantika", 90);
+cekKelulusan("Budi", 60);
 
-console.log("Angka pertama:", angka3);
-console.log("Angka kedua:", angka4);
-console.log("Hasil pengurangan:", hasilPengurangan);
+// Function dengan parameter
 
-// function kali
+function sapa(nama) {
+  console.log("Halo " + nama);
+}
+
+sapa("Cantika");
+sapa("dewa");
+
+
+// Function dengan beberapa parameter
+
+function hitung(a, b, c) {
+  console.log(a - b + c);
+}
+
+hitung(20, 10, 3);
+hitung(6, 5, 7);
+ //return
+
 function kali(a, b) {
-    return a * b;
+  return a * b;
+}
+let hasil = kali(8, 7);
+console.log(hasil);
+
+//fungsi - kondisi
+
+function cekUmur(umur) {
+  if (umur >= 18) {
+    return "Dewasa";
+  } else {
+    return "Belum dewasa";
+  }
 }
 
-const angka5 = 6;
-const angka6 = 7;
-
-const hasilPerkalian = kali(angka5, angka6);
-
-console.log("Angka pertama:", angka5);
-console.log("Angka kedua:", angka6);
-console.log("Hasil perkalian:", hasilPerkalian);
-
-//function bagi 
-function bagi(a, b) {
-    return a / b;
-}
-
-const angka7 = 20;
-const angka8 = 4;
-
-const hasilPembagian = bagi(angka7, angka8);
-
-console.log("Angka pertama:", angka7);
-console.log("Angka kedua:", angka8);
-console.log("Hasil pembagian:", hasilPembagian);
-
-function hitung(a, operator, b) {
-    switch (operator) {
-        case "+":
-            return tambah(a, b);
-
-        case "-":
-            return kurang(a, b);
-
-        case "*":
-            return kali(a, b);
-
-        case "/":
-            return bagi(a, b);
-
-        default:
-            return "Operator tidak dikenal";
-    }
-}
+console.log(cekUmur(98));
+console.log(cekUmur(8));
