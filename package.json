@@ -11,5 +11,11 @@
         "destructuring": "node 01-javascript-fundamentals/05-destructuring-spread/index.js",
         "modules": "node 01-javascript-fundamentals/06-es-modules/index.js",
         "products": "node 01-javascript-fundamentals/mini-project-produk-list/index.js"
+    },
+    "dependencies": {
+        "axios": "^1.20.0"
+    },
+    "devDependencies": {
+        "tsx": "^4.23.13"
     }
 }
