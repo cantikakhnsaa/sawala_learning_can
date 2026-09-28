@@ -1,25 +1,33 @@
 let hari = "Senin";
 hari = "Selasa";
-console.log (hari);  
 
-//tipe data
+console.log("Hari:", hari);
 
-const nama  = "Cantika, 90";
+const nama = "Cantika";
+const nilai = 90;
+
+// Tipe data
 let merk;
 const sejarah = null;
-const nilai = 17; 
 const sudahMakan = true;
 const belumMakan = false;
 
+console.log("\n=== Data Siswa ===");
+console.log("Nama:", nama);
+console.log("Nilai:", nilai);
 
-console.log ("tipe data nama:",typeof nama );
-console.log (nama);
-console.log (merk);
-console.log (sejarah);
-console.log ("nilai siswa terbaik:", nilai);
+console.log("\n=== Tipe Data ===");
+console.log("Nama:", typeof nama);
+console.log("Nilai:", typeof nilai);
+console.log("Merk:", merk);
+console.log("Sejarah:", sejarah);
+console.log("Sudah makan:", typeof sudahMakan);
+console.log("Belum makan:", typeof belumMakan);
+
+console.log("\n=== Kondisi ===");
+
 if (sudahMakan) {
-    console.log("pinter");
+  console.log("Sudah makan. Pinter!");
 } else {
-    console.log("astagfirullah");
+  console.log("Belum makan. Jangan lupa makan.");
 }
-
