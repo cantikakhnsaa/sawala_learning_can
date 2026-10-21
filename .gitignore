@@ -16,3 +16,16 @@ yarn-error.log*
 coverage/
 dist/
 build/
+# Generated build files and local databases
+.next/
+.strapi/
+.tmp/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
